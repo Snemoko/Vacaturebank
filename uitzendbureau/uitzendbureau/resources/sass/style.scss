@@ -1,0 +1,279 @@
+
+.btn{
+    padding: 10px 20px;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+.bg-white,.card-header{
+    background-color: #338496!important;
+}
+.card-header{
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+
+
+.ad{
+    height:100px;
+    background-size: cover;
+    max-width: 800px !important;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.homepage-text{
+    font-weight: 400;
+    letter-spacing: 1px;
+    a{
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: $blue;
+        font-size: 30px
+    }
+}
+
+.huisregels-container , .form-vacature-toevoegen{
+    background-color: $blue;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left:50px;
+    padding-right:50px;
+    border-radius: 0px;
+    margin-top: 10px;
+}
+
+.header-huisregels{
+    font-weight: 700;
+    margin-bottom: -50px;
+    text-align: center !important;
+    letter-spacing: 3px;
+}
+
+.text-huisregels{
+    font-size: 18px;
+}
+
+//werkzoekende
+.btn-werkzoekende{
+    margin-left: auto;
+    margin-right: auto
+}
+
+.category-form{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+//einde werkzoekende
+
+
+
+//begin profiel pagina//
+.profiel-card{
+    font-size: 20px;
+    .download-buttons-profile{
+
+        .download{
+            background-color: $green;
+            display: inline-block;
+            color: white;
+            border-radius: 18px;
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 10px 20px;
+
+        }
+    }
+
+    }
+
+
+//einde profiel pagina
+//form Vacature uploaden
+.button-file-upload{
+    width: 250px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    background: $mint;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    margin-right:auto;
+    margin-left: auto;
+    text-align: center;
+
+    &:hover{
+        background: #4E8075;
+        cursor: pointer;
+    }
+}
+input[type=file]{
+    display:none !important;
+}
+
+input[type=text]{
+    margin-top: 10px;
+    width: 70%;
+    height: 50px;
+    max-width: 600px;
+    text-align: center;
+    border-radius: 20px;
+}
+input[type=number]{
+    margin-top: 10px;
+    width: 70%;
+    max-width: 600px;
+    height: 50px;
+    border-radius: 20px;
+}
+select{
+    width: 70%;
+    max-width: 600px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+textarea{
+    width: 70%;
+    max-width: 600px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.button-vacature-toevoegen{
+    background: #008BC0;
+    color: white;
+    margin-top: 15px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+    font-size: 25px;
+}
+
+
+//board//@at-root
+
+.job-offer{
+    margin: 10px;
+    background-color: $mint;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom:20px;
+
+    .job-beschrijving{
+        font-size:16px;
+        letter-spacing: 1px;
+    }
+}
+
+.search{
+    input[type=text]{
+        width: 70%;
+        height:40px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        max-width: 600px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+}
+//einde Vacature upload
+
+//admin panel//
+.admin-panel{
+    background-color: $blue;
+    color: white;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    &:hover{
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .arrow{
+        display: inline;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        font-size: 40px;
+    }
+}
+//einde admin panel//
+
+//admin user page//
+
+.admin-table-users{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.error{
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+//einde admin user page//
+
+
+//begin manage vacatures
+.geen-vacatures{
+    margin-top: 200px;
+    .vacatures-geen-text{
+        color: $red;
+    }
+}
+
+
+//einde manage vacatures//
+
+//board werkzoekende
+
+.werkzoekende{
+    .download{
+        background-color: #2887BE;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        &:hover{
+            background-color: #6CBCF7;
+            text-decoration: none;
+        }
+    }
+}
+
+#melding{
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    z-index: 1;
+    background-color: #66CC8F;
+    padding: 20px 40px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: none;
+}
